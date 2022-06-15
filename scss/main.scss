@@ -1,0 +1,15 @@
+// utils
+@import './utils/vars';
+@import './utils/visually-hidden';
+// base styles
+@import './base/common';
+@import './base/reset';
+@import './base/container';
+
+//components
+@import './components/botton';
+@import './components/socials';
+@import './components/modal-window/module';
+@import './components/contacts';
+@import './components/logo';
+//layouts

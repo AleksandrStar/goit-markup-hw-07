@@ -1,0 +1,105 @@
+@charset "UTF-8";
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  /* Цвет текста */
+  --basic-color: #212121;
+  --secondary-color: #757575;
+  --logo-color: #000000;
+  --logo-footer: #ffffff;
+  --contacts-footer: #ffffff;
+  --contacts-list-footer: rgba(255, 255, 255, 0.6);
+  --title: #ffffff;
+  --button: #ffffff;
+  --office: #ffffff;
+  --item: #ffffff;
+  /* Цвет фона */
+  --dark-bg: #2f303a;
+  --secondary-bg: #f5f4fa;
+  /* Акцент цвета текста и фона*/
+  --accent-color: #2196f3;
+  --accent-color-hover: #188ce8;
+  /* Цвет линий*/
+  --card-line: #eeeeee;
+  /* Переменная зазоров между карточками*/
+  --filter-list-card: 30px;
+  /* Функция разделения времени в переходах*/
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--basic-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: #ffffff;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+address {
+  font-style: normal;
+}
+
+textarea {
+  resize: none;
+  width: 448px;
+  height: 120px;
+  padding: 12px 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+ul,
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}/*# sourceMappingURL=main.css.map */
