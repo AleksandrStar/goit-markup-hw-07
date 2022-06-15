@@ -115,7 +115,7 @@ img {
   align-items: center;
 }
 /* Ссылка с логотипом */
-.logo .accent {
+.accent {
   color: var(--accent-color);
 }
 .logo {
@@ -155,7 +155,7 @@ img {
   color: var(--accent-color);
 }
 /* Список контактов */
-.contacts__header-list .contacts__email {
+.contacts-header-list__contacts-email {
   padding: 32px 0px;
   font-weight: 500;
   display: flex;
@@ -170,7 +170,7 @@ img {
 .contacts__header-list .contacts__email:focus {
   color: var(--accent-color);
 }
-.contacts__header-list .contacts__phone {
+.contacts-header-list__contacts-phone {
   padding: 32px 0px;
   font-weight: 500;
   display: flex;
