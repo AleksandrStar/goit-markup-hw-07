@@ -1,6 +1,7 @@
 // utils
 @import './utils/vars';
 @import './utils/visually-hidden';
+
 // base styles
 @import './base/common';
 @import './base/reset';
@@ -12,4 +13,14 @@
 @import './components/modal-window/module';
 @import './components/contacts';
 @import './components/logo';
+@import './components/header';
+@import './components/footer';
+@import './components/navigation';
+
 //layouts
+@import './layouts/hero';
+@import './layouts/priority';
+@import './layouts/works';
+@import './layouts/team';
+@import './layouts/klient';
+@import './layouts/portfolio';
